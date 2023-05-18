@@ -1,0 +1,9 @@
+.lang__ru {
+    margin-right: 18px;
+    text-decoration: none;
+    color: white;
+}
+
+.lang__ru:hover {
+    text-decoration: underline;
+}

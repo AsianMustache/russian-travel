@@ -1,0 +1,8 @@
+.lang__en {
+    text-decoration: none;
+    color: white;
+}
+
+.lang__en:hover {
+    text-decoration: underline;
+}

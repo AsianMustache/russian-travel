@@ -1,0 +1,10 @@
+.page {
+    min-width: 1280px;
+    min-height: 6875px;
+    margin: 0 auto;
+    font-family: 'Inter', Arial, sans-serif;
+    scroll-behavior: smooth;
+    background-color: #2A2C2F;
+    display: flex;
+    justify-content: center;
+}
