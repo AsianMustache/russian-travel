@@ -1,0 +1,7 @@
+.intro {
+    max-width: 690px;
+    max-height: 429px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 92px 442px 92px 148px;
+}

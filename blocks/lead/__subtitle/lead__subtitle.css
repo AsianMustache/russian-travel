@@ -1,5 +1,4 @@
 .lead__subtitle {
-    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
@@ -8,5 +7,5 @@
     color: white;
     width: 640px;
     height: 72px;
-    margin: 0 auto;
+    margin: 0px 246px;
 }
