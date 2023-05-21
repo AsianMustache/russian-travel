@@ -1,0 +1,12 @@
+.place {
+    max-width: 984px;
+    max-height: 660px;
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+    column-gap: 40px;
+    row-gap: 48px;
+}
+
+.place:nth-child(4) {    
+    margin-top: 80px;
+}
