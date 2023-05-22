@@ -21,8 +21,8 @@
     top: 0;
 }
 
-.cover__link:hover {
+.cover__link:hover::after {
+    content: "";
     opacity: 0.8;
     z-index: 0;
-    position: relative;
 }
