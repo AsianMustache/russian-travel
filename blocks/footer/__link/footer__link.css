@@ -1,14 +1,15 @@
-.website__link {
+.footer__link {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    text-decoration-line: underline;
+    font-size: 16px;
+    line-height: 18px;
     color: #FFFFFF;
+    text-decoration: none;
+    margin-right: 18px;
 }
 
-.website__link:hover {
+.footer__link:hover {
     opacity: 0.8;
     transition: ease-in-out 0.2s;
 }
