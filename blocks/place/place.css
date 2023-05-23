@@ -32,4 +32,8 @@
         column-gap: 28px;
         margin-top: 73px;
     }
+
+    .place:nth-child(4) {    
+        margin-top: 0;
+    }
 }

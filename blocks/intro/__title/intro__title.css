@@ -7,3 +7,10 @@
     color: #FFFFFF;
     margin: 0;
 }
+
+@media (max-width: 950px) {
+    .intro__title {
+        max-width: 720px;
+        max-height: 58px;
+    }
+}
