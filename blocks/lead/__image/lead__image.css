@@ -1,6 +1,22 @@
+
 .lead__image {
     width: 984px;
     height: 615px;
     background-image: url(../../../images/__image.jpg);
     margin-top: 64px;
+}
+
+@media (max-width: 1250px) {
+    .lead__image {
+        max-width: 928px;
+        max-height: 580px;
+        margin-top: 56px;
+    }
+}
+
+@media (max-width: 950px) {
+    .lead__image {
+        max-width: 768px;
+        max-height: 480px;
+    }
 }

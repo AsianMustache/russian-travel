@@ -1,3 +1,4 @@
+
 .lead {
     max-width: 984px;
     max-height: 1005px;
@@ -5,4 +6,18 @@
     flex-wrap: wrap;
     align-items: center;
     margin: 0 auto;
+}
+
+@media (max-width: 1250px) {
+    .lead {
+        max-width: 928px;
+        max-height: 962px;
+    }
+}
+
+@media (max-width: 950px) {
+    .lead {
+        max-width: 768px;
+        max-height: 862px;
+    }
 }

@@ -1,3 +1,4 @@
+
 .page {
     max-width: 1280px;
     min-height: 6875px;
@@ -5,4 +6,18 @@
     scroll-behavior: smooth;
     background-color: #2A2C2F;
     font-family: 'Inter', sans-serif;
+}
+
+@media (max-width: 1250px) {
+    .page {
+        max-width: 100%;
+        min-height: 6895px;
+    }
+}
+
+@media (max-width: 950px) {
+    .page {
+        max-width: 100%;
+        max-height: 6855px;
+    }
 }

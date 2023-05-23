@@ -1,3 +1,4 @@
+
 .place {
     max-width: 984px;
     max-height: 660px;
@@ -9,4 +10,26 @@
 
 .place:nth-child(4) {    
     margin-top: 80px;
+}
+
+@media (max-width: 1250px) {
+    .place {
+        max-width: 928px;
+        max-height: 640px;
+        display: grid;
+        grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+        column-gap: 32px;
+        row-gap: 48px;
+    }    
+}
+
+@media (max-width: 950px) {
+    .place {
+        max-width: 720px;
+        max-height: 521px;
+        display: grid;
+        grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+        column-gap: 28px;
+        margin-top: 73px;
+    }
 }

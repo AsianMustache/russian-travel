@@ -26,3 +26,17 @@
     opacity: 0.8;
     z-index: 0;
 }
+
+@media (max-width: 1250px) {
+    .cover__link {
+        width: 100%;
+        min-height: 640px;
+    }
+}
+
+@media (max-width: 950px) {
+    .cover__link {
+        width: 100%;
+        min-height: 480px;
+    }
+}
