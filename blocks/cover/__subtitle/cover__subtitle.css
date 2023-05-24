@@ -12,3 +12,15 @@
     position: relative;
     z-index: 1;
 }
+
+@media (max-width: 750px) {
+    .cover__subtitle {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+}

@@ -21,3 +21,10 @@
         max-height: 862px;
     }
 }
+
+@media (max-width: 750px) {
+    .lead {
+        max-width: 320px;
+        max-height: 406px;
+    }
+}

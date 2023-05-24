@@ -7,3 +7,16 @@
     color: #FFFFFF;
     margin: 0;
 }
+
+@media (max-width: 750px) {
+    .intro__list {
+        max-width: 288px;
+        max-height: 90px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 18px;
+        color: #FFFFFF;
+    }
+}

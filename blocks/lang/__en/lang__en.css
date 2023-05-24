@@ -10,3 +10,15 @@
 .lang__en:hover {
     text-decoration: underline;
 }
+
+@media (max-width: 750px) {
+    .lang__en {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 20px;
+        text-align: right;
+        color: #FFFFFF;
+    }
+}

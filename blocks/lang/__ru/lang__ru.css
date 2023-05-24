@@ -11,3 +11,16 @@
 .lang__ru:hover {
     text-decoration: underline;
 }
+
+@media (max-width: 750px) {
+    .lang__ru {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 20px;
+        text-align: right;
+        text-decoration-line: underline;
+        color: #FFFFFF;
+    }
+}

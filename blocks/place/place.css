@@ -37,3 +37,14 @@
         margin-top: 0;
     }
 }
+
+@media (max-width: 750px) {
+    .place {
+        max-width: 320px;
+        max-height: 1042px;
+        display: grid;
+        grid-template-columns: minmax(100px, max-content);
+        gap: 0;
+        margin-top: 0;
+    }
+}

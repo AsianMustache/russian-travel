@@ -27,3 +27,14 @@
         gap: 16px;
     }
 }
+
+@media (max-width: 750px) {
+    .photo-grid {
+        max-width: 288px;
+        max-height: 2724px;
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 64px 16px;
+        gap: 12px;
+    }
+}
