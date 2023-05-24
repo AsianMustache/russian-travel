@@ -1,4 +1,4 @@
-.lang__en {
+.lang-en {
     text-decoration: none;
     color: white;
     font-style: normal;
@@ -7,12 +7,12 @@
     line-height: 28px;
 }
 
-.lang__en:hover {
+.lang-en:hover {
     text-decoration: underline;
 }
 
 @media (max-width: 750px) {
-    .lang__en {
+    .lang-en {
         font-family: 'Inter';
         font-style: normal;
         font-weight: 400;

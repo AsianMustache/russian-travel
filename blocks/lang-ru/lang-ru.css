@@ -1,4 +1,4 @@
-.lang__ru {
+.lang-ru {
     margin-right: 18px;
     text-decoration: none;
     color: white;
@@ -8,12 +8,12 @@
     line-height: 28px;
 }
 
-.lang__ru:hover {
+.lang-ru:hover {
     text-decoration: underline;
 }
 
 @media (max-width: 750px) {
-    .lang__ru {
+    .lang-ru {
         font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
