@@ -35,7 +35,6 @@
 
 @media (max-width: 950px) {
     .cover__link {
-        width: 100%;
         min-height: 480px;
         background-size: cover;
     }
