@@ -1,7 +1,6 @@
 
 .intro {
     max-width: 690px;
-    max-height: 429px;
     display: flex;
     flex-wrap: wrap;
     margin: 92px 442px 92px 148px;
@@ -15,14 +14,14 @@
 
 @media (max-width: 950px) {
     .intro {
-        margin: 88px 24px;
+        max-width: 720px;
+        margin: 0 24px;
     }
 }
 
 @media (max-width: 750px) {
     .intro {
         max-width: 288px;
-        max-height: 754px;
         margin: 64px 16px;
     }
 }

@@ -1,22 +1,17 @@
 .intro__list {
-    font-family: 'Inter';
+    font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 12px;
     line-height: 18px;
     color: #FFFFFF;
     margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
 @media (max-width: 750px) {
     .intro__list {
         max-width: 288px;
-        max-height: 90px;
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 12px;
-        line-height: 18px;
-        color: #FFFFFF;
     }
 }

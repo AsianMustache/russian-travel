@@ -1,26 +1,22 @@
 .cover__subtitle {
     text-decoration: none;
-    font-family: 'Inter';
+    font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
     text-align: center;
-    color: #FFFFFF;
+    color: #fff;
     max-width: 360px;
-    max-height: 66px;
     position: relative;
     z-index: 1;
+    margin: 0;
 }
 
 @media (max-width: 750px) {
     .cover__subtitle {
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
         font-size: 14px;
         line-height: 16px;
-        text-align: center;
-        color: #FFFFFF;
+        margin: 0px 27px 33px;
     }
 }

@@ -1,4 +1,4 @@
-.lang-en {
+.header__lang_none {
     text-decoration: none;
     color: white;
     font-style: normal;
@@ -7,18 +7,16 @@
     line-height: 28px;
 }
 
-.lang-en:hover {
-    text-decoration: underline;
+.header__lang_none:hover {
+    opacity: 0.8;
+    transition: ease-in-out 0.2s;
 }
 
 @media (max-width: 750px) {
-    .lang-en {
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
+    .header__lang_none {
         font-size: 18px;
         line-height: 20px;
         text-align: right;
-        color: #FFFFFF;
+        text-decoration-line: none;
     }
 }

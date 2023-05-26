@@ -1,30 +1,26 @@
 
 .page {
     max-width: 1280px;
-    min-height: 6875px;
     margin: 0 auto;
     scroll-behavior: smooth;
     background-color: #2A2C2F;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter', Arial, sans-serif;;
 }
 
 @media (max-width: 1250px) {
     .page {
         max-width: 100%;
-        min-height: 6895px;
     }
 }
 
 @media (max-width: 950px) {
     .page {
         max-width: 100%;
-        max-height: 6855px;
     }
 }
 
 @media (max-width: 750px) {
     .page {
         max-width: 320px;
-        max-height: 10023px;
     }
 }

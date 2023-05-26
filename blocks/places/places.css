@@ -1,30 +1,26 @@
 
 .places {
     max-width: 984px;
-    max-height: 3392px;
     margin: 92px 148px;
 }
 
 @media (max-width: 1250px) {
     .places {
         max-width: 928px;
-        max-height: 3292px;
-        margin: 92px 48px;
+        margin: 103px 48px;
     }    
 }
 
 @media (max-width: 950px) {
     .places {
         max-width: 720px;
-        max-height: 2808px;
-        margin: 88px 24px 90px;
+        margin: 88px 24px 69px;
     }
 }
 
 @media (max-width: 750px) {
     .places {
         max-width: 320px;
-        max-height: 5177px;
-        margin: 0 0 66px;
+        margin: 0 0 57px;
     }
 }

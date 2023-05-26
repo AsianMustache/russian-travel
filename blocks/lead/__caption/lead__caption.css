@@ -1,23 +1,22 @@
 .lead__caption {
+    font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 10px;
     line-height: 14px;
     letter-spacing: 1.5px;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: #fff;
+}
+
+@media (max-width: 950px) {
+    .lead__caption {
+        margin: 4px 584px 88px 24px;
+    }
 }
 
 @media (max-width: 750px) {
     .lead__caption {
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 10px;
-        line-height: 14px;
-        letter-spacing: 1.5px;
-        text-transform: uppercase;
-        color: #FFFFFF;
-        margin: 8px 0 0 16px;
+        margin: 3px 0 0 16px;
     }
 }
