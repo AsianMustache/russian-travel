@@ -1,17 +1,17 @@
-.place-text {
+.text {
     display: flex;
     flex-direction: column;
     row-gap: 26px;
 }
 
 @media (max-width: 950px) {
-    .place-text {
+    .text {
         row-gap: 25px;
     }
 }
 
 @media (max-width: 750px) {
-    .place-text {
+    .text {
         max-width: 316px;
     }
 }

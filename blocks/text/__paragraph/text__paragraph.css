@@ -1,4 +1,4 @@
-.place-text__paragraph {
+.text__paragraph {
     font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -7,15 +7,15 @@
     color: #fff;
     margin: 0;
 }
-/*сделать класс с модификатором*/
+
 @media (max-width: 950px) {
-    .place-text__paragraph {
+    .text__paragraph {
         font-size: 16px;
     }
 }
 
 @media (max-width: 750px) {
-    .place-text__paragraph {
+    .text__paragraph {
         margin: 0 16px;
     }
 }

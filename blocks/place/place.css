@@ -30,15 +30,15 @@
         grid-template-columns: minmax(auto, auto);
         gap: 32px;
         margin-top: 0;
-        margin-bottom: 51px;
+        margin-bottom: 50px;
     }
 
-    .place:nth-child(2) {
+    /* .place:nth-child(2) {
         margin-top: 71px;
         margin-bottom: 22px;
     }
 
     .place:nth-child(5) {
         margin-bottom: 0;
-    }
+    } */
 }
