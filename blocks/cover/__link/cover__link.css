@@ -6,6 +6,7 @@
     position: relative;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .cover__link::after {

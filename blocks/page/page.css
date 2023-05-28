@@ -13,12 +13,6 @@
     }
 }
 
-@media (max-width: 950px) {
-    .page {
-        max-width: 100%;
-    }
-}
-
 @media (max-width: 750px) {
     .page {
         max-width: 320px;

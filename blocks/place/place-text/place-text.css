@@ -1,0 +1,12 @@
+.place-text {
+    display: flex;
+    flex-direction: column;
+    row-gap: 26px;
+}
+
+@media (max-width: 950px) {
+    .place-text {
+        row-gap: 25px;
+        max-width: 316px;
+    }
+}

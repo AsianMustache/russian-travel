@@ -1,4 +1,5 @@
-.header__lang_none {
+.header__lang-link {
+    margin-left: 18px;
     text-decoration: none;
     color: white;
     font-style: normal;
@@ -7,16 +8,14 @@
     line-height: 28px;
 }
 
-.header__lang_none:hover {
+.header__lang-link:hover {
     opacity: 0.8;
     transition: ease-in-out 0.2s;
 }
 
 @media (max-width: 750px) {
-    .header__lang_none {
+    .header__lang-link {
         font-size: 18px;
         line-height: 20px;
-        text-align: right;
-        text-decoration-line: none;
     }
 }
