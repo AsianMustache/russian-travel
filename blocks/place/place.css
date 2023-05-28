@@ -11,8 +11,8 @@
 @media (max-width: 1250px) {
     .place {
         max-width: 928px;
-        column-gap: 32px;
-        margin-top: 65px;
+        column-gap: 20px;
+        margin-top: 78px;
     }    
 }
 
@@ -34,7 +34,11 @@
     }
 
     .place:nth-child(2) {
-        margin-top: 76px;
+        margin-top: 71px;
         margin-bottom: 22px;
+    }
+
+    .place:nth-child(5) {
+        margin-bottom: 0;
     }
 }

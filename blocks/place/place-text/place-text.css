@@ -7,6 +7,11 @@
 @media (max-width: 950px) {
     .place-text {
         row-gap: 25px;
+    }
+}
+
+@media (max-width: 750px) {
+    .place-text {
         max-width: 316px;
     }
 }

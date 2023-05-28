@@ -1,0 +1,5 @@
+@media (max-width: 750px) {
+    .place-text__paragraph_margin {
+        margin: 0 15px;
+    }
+}

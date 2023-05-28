@@ -9,6 +9,12 @@
     color: #fff;
 }
 
+@media (max-width: 1250px) {
+    .lead__caption {
+        margin: 5px 0;
+    }
+}
+
 @media (max-width: 950px) {
     .lead__caption {
         margin: 4px 584px 88px 24px;
