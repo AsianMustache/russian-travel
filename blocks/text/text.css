@@ -13,5 +13,6 @@
 @media (max-width: 750px) {
     .text {
         max-width: 316px;
+        display: block;
     }
 }
