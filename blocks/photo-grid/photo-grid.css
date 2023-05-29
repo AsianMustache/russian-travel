@@ -15,6 +15,14 @@
     }
 }
 
+/* @media (max-width: 1024px) {
+    .photo-grid{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+} */
+
 @media (max-width: 950px) {
     .photo-grid {
         max-width: 720px;
